@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <h1 class="mainHeading text-center bg-warning-subtle ">Welcome to WatchVista</h1>
+    <h1 class="mainHeading text-center bg-dark bg-gradient ">Welcome to WatchVista</h1>
 
 
 
 <!-- NAVBAR Code -->
 
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
+<nav class="navbar navbar-expand-lg bg-warning">
   <div class="container-fluid">
 
         <a class="navbar-brand" href="#">Products</a>
@@ -43,7 +43,7 @@
 
 <!-- Banner.................... -->
 
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+<div id="carouselExampleAutoplaying" class="carousel slide bg-dark" data-bs-ride="carousel">
     <div class="carousel-inner p-2" style="height: 500px;">
                 <div class="carousel-item active">
                 <img src="./images/1.jpg" class="d-block w-100" alt="...">
@@ -67,11 +67,31 @@
 </div>
 
 <h2 class="text-center mt-3 p-2 ">Our Products</h2>
+
+<!-- Search Bar -->
+
+    <div class="searchBar">
+    <div class="container-fluid d-flex"> 
+        <input class="form-control border-warning border-3 " type="search" placeholder="Search by Name" aria-label="Search" id="searchProducts">
+        <button class="btn btn-warning ms-3" onclick="searchProducts()" >Search</button>  
+    </div>
+
+    <div class="dropdown">
+    <button class="btn btn-warning dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Brands
+    </button>
+    <ul class="dropdown-menu" id="renderBrands" >
+    </ul>
+    </div>
+    </div>
+<!-- Search Bar End -->
+<!-- 
+Render Products -->
 <div class="container mt-2" >
     <div class="row" id="renderCard"></div>
 </div>
 
-<footer class="text-center p-3 mb-2 bg-warning-subtle text-danger-emphasis">
+<footer class="text-center p-3 mb-2 bg-dark bg-gradient text-white">
     copyright - WatchVista 2025
 </footer >
     <script src="script.js"></script>
