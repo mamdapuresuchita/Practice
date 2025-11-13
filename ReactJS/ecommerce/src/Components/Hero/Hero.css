@@ -1,0 +1,38 @@
+.hero{
+    height: 100vh;
+    background: linear-gradient(90deg, #f7a47b, #f7a9aa,#fb8688);
+}
+
+.heroLeft{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+
+.heroLeft p{
+    font-size: 100px;
+    font-weight: 700;
+    color: red;
+
+}
+
+.heroBtn{
+    display: flex;
+    justify-content: center;
+}
+
+.heroLeft h1{
+    color: brown;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.heroRight{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}

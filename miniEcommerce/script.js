@@ -70,7 +70,9 @@ renderCardElmt.innerHTML = renderProd.map((w,i)=>`
         <p class="card-text">Price: ${w.price}</p>
         <p class="card-text">Stock: ${w.stock}</p>
         <p class="card-text">Brand: ${w.brand}</p>
-        <a href="#" class="btn btn-warning">${w.moreInfo}</a>
+        <a href="#" class="btn btn-warning">Edit</a>
+        <a href="#" class="btn btn-danger">Delete</a>
+        <a href="#" class="btn btn-info">Add to cart</a>
       </div>
     </div>
   </div>`
