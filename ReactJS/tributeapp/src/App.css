@@ -19,3 +19,15 @@ body {
 body.dark {
   background: linear-gradient(180deg, #0f2027, #203a43, #2c5364);
 }
+
+.goToTop{
+  position:sticky;
+  bottom: 20px;
+  right: 30px;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #64a7bd;
+  border: none;
+}
