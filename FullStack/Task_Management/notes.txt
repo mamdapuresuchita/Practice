@@ -1,0 +1,45 @@
+1.create 3 repo
+server
+admin-panel
+user-panel
+
+
+express dotenv MySQL sequelize cors nodemon
+
+install express dotenv MySQL sequelize cors nodemon
+
+
+server.js
+routes->taskRoute.js
+
+post(/createTask);put(/updateTask);delete(/deleteTask/ID);get(/getAllTasks);get(/getTaskById/:ID);patch(/statusUpdate/:ID);
+patch(/assignTask/:ID)
+
+
+
+
+userRoute.js
+post(/register);post(/login);get(/getAllUsers);put(/modifyUser);delete(/deleteUser);
+
+
+
+controller->taskController.js
+config->db.js
+
+model->taskModel
+
+id;title;description;startDate;endDate;Status['Pending','Completed','In Process'];Priority['low','medium','high']
+
+createdAt;createdBy;UpdatedAt;UpdatedBy
+
+
+userModel
+
+id;name;email(unique);password;imagePath;
+createdAt;createdBy;UpdatedAt;UpdatedBy
+
+
+
+Role Based Dashboard
+
+2025-12-01T13:00:31.679433Z 6 [Note] [MY-010454] [Server] A temporary password is generated for root@localhost: DFKlk>Rwa9c9
